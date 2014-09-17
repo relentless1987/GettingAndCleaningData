@@ -1,16 +1,17 @@
 ## Code Book for **data\_with_means.txt**
 
+### Units
+
+
+- Subject:  No units
+- Activity:  No units 
+- Remaining:
+	- Acc = acceleration = m/s^2
+	- Gyro = gyroscope = degrees per second
+	- Jerk = derivative of Acc w.r.t. time is typically = m/s^3
+
 ###Attribute description
 
-1. Units
-
-
-	- Subject:  No units
-	- Activity:  No units 
-	- Remaining:
-		- Acc = acceleration = m/s^2
-		- Gyro = gyroscope = degrees per second
-		- Jerk = derivative of Acc w.r.t. is typically = m/s^3
 
 2. Subject is subject # from 1 to 30.
 
