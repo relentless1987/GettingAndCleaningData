@@ -14,7 +14,7 @@
 
 2. Subject is subject # from 1 to 30.
 
-2. Activity is one of these 6 items:
+3. Activity is one of these 6 items:
 	- walking
 	- walkingUpstairs
 	- walkingDownstairs
@@ -22,13 +22,13 @@
 	- standing
 	- laying
 	
-3. The data has 30 subjects * 6 activity per subject = 180 rows.
-4. The remaining attributes for position 3 to 68 (66 columns) are  means and std dev for XYZ (3 axial signals in X, Y, and Z directions) for 6 columns.
+4. The data has 30 subjects * 6 activity per subject = 180 rows.
+5. The remaining attributes for position 3 to 68 (66 columns) are  means and std dev for XYZ (3 axial signals in X, Y, and Z directions) for 6 columns.
 
-5. The *Mag entries are the mean and std dev of the magnitude of the 3 dimension signals.
-6. The t* entries are time domain and the f* are frequency domain from these measurements.
+6. The *Mag entries are the mean and std dev of the magnitude of the 3 dimension signals.
+7. The t* entries are time domain and the f* are frequency domain from these measurements.
 
-7. Here are signals represented in the #3 to #68 columns (66 total). 
+8. Here are signals represented in the #3 to #68 columns (66 total). 
 	- tBodyAcc-XYZ (6)
 	- tGravityAcc-XYZ (6)
 	- tBodyAccJerk-XYZ (6)
