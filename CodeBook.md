@@ -22,13 +22,15 @@
 	- standing
 	- laying
 	
-4. The data has 30 subjects * 6 activity per subject = 180 rows.
-5. The remaining attributes for position 3 to 68 (66 columns) are  means and std dev for XYZ (3 axial signals in X, Y, and Z directions) for 6 columns.
+4. Data has 30 subjects * 6 activity per subject = 180 rows.
+
+5. Remaining attributes for position 3 to 68 (66 columns) are  means and std dev for XYZ (3 axial signals in X, Y, and Z directions) for 6 columns.
 
 6. The *Mag entries are the mean and std dev of the magnitude of the 3 dimension signals.
+
 7. The t* entries are time domain and the f* are frequency domain from these measurements.
 
-8. Here are signals represented in the #3 to #68 columns (66 total). 
+8. Signals represented in the #3 to #68 columns (66 total). 
 	- tBodyAcc-XYZ (6)
 	- tGravityAcc-XYZ (6)
 	- tBodyAccJerk-XYZ (6)
