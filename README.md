@@ -8,8 +8,7 @@ Unzip the source found here:
 
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Data Set")
 
-
-into the working R directory as your local drive.
+into the working R directory on your local drive.
 
 ### 2. run_analysis.R
 
