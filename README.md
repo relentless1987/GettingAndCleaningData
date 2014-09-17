@@ -6,7 +6,7 @@
 Unzip the source found here:
 
 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Data Set")
 
 
 into the working R directory as your local drive.
@@ -17,7 +17,18 @@ Put run_analysis.R in the same working directory as source data
 
 ###	3.  Execute run_analysis.R
 
-The script will take about 30 seconds to execute
+The script will take about 30 seconds to execute.  It works through the following steps:
+
+	- Create a single dataset from the training and test data
+	- Extracts mean and std dev for each measurement
+	- Creates and labels descriptive activities:
+		- walking
+		- walkingUpstairs
+		- walkingDownstairs
+		- sitting
+		- standing
+		- laying
+	- Creates the tidy data set with activities, mean, and std dev
 
 ###	4.  Output
 
