@@ -31,11 +31,11 @@ The script will take about 30 seconds to execute.  It works through the followin
 
 ###	4.  Output
 
-**data\_with_means.txt** will be found in the working directory as the final tidy data output
+**tidy\_data\_with_means.txt** will be found in the working directory as the final tidy data output
 
 ###5. CodeBook.md
 
-CodeBook.md provides descriptions for each of the 68  attributes in **data\_with_means.txt**.
+CodeBook.md provides descriptions for each of the 68  attributes in **tidy\_data\_with_means.txt**.
 
 
 
